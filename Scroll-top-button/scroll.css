@@ -1,5 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+html{
+    background-color: antiquewhite;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    margin-bottom: 1.5rem;
+    font-size: 2.3rem;
+}
+
+.title{
+    padding: 8rem 4rem;
+    background-image: url("./assets/taco.jpg");
+    background-size: cover;
+    color: white;
+}
+
+.content{
+    display: block;
+    width: 80%;
+    margin: .5rem auto;
+    height: 300px;
+    text-align: justify;
+    padding: 3rem 1rem;
+}
+
+.separator{
+    border: 10px dotted gray;
+    /* border-width: 10px; */
+    width: 3rem;
+    margin: 10px auto;
+    border-style: none none dotted none;
+}
+
+section h2{
+    margin-bottom: 1rem;
+    font-weight: 700;
+
 }
