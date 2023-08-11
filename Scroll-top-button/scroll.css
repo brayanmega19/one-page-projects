@@ -6,7 +6,7 @@
 }
 
 html{
-    background-color: antiquewhite;
+    background-color: rgb(244, 233, 219);
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -26,9 +26,13 @@ h1{
     display: block;
     width: 80%;
     margin: .5rem auto;
-    height: 300px;
+    min-height: 300px;
     text-align: justify;
     padding: 3rem 1rem;
+}
+
+.content h2{
+    margin-bottom: 2rem;
 }
 
 .separator{
@@ -43,4 +47,54 @@ section h2{
     margin-bottom: 1rem;
     font-weight: 700;
 
+}
+
+.impar img{
+    float: left;
+    margin-right: 3rem;
+    border-radius: 20%;
+}
+
+.par img{
+    float: right;
+    margin-left: 3rem;
+    border-radius: 20%;
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.scroll-top-button{
+    position: fixed;
+    z-index: 999;
+    bottom: 1vh;
+    right: calc(2.25rem + 1vw);
+    width: 2.9rem;
+    height: 2.9rem;
+    border-radius: 50%;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: whitesmoke;
+    color: rgb(114, 109, 109);
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    outline: 0;
+    transition: all 0.3s ease-out;
+}
+
+
+.scroll-top-button:hover{
+    border-width: 1.5px;
+    color: rgb(67, 65, 65);
+    width: 3.2rem;
+    height: 3.2rem;
+    
+}
+
+.hidden{
+    opacity: 0;
+    visibility: hidden;
 }
