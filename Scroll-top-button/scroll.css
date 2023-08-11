@@ -98,3 +98,8 @@ section h2{
     opacity: 0;
     visibility: hidden;
 }
+
+video{
+    margin: 10px auto;
+    display: block;
+}
